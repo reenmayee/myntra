@@ -1,0 +1,136 @@
+.trend-prediction{
+  font-family: "Arial", sans-serif;
+  padding: 100px;
+  background: linear-gradient(135deg, #fcbfbc, #d6e0f0);
+  min-height: 100vh;
+  overflow: hidden;
+}
+.trend-header{
+  background-color: #ffffff;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.header-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.logo img{
+  height: 40px;
+}
+.nav{
+  display: flex;
+  gap: 20px;
+}
+.nav a{
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+.nav a:hover{
+  color: #ff3f6c;
+}
+.search-bar input{
+  padding: 8px;
+  border: 1px #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.trend-main{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+.trend-main h1{
+  padding: 10px;
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+.trend-main p{
+  padding: 10px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+.prediction-form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.prediction-form input{
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.prediction-form button{
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff3f6c;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.prediction-form button:hover {
+  background-color: #e64e78;
+}
+.show-results-button{
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.show-results-button:hover{
+  background-color: #45a049;
+}
+.feedback{
+  font-size: 1.1rem;
+  color: #ff3f6c;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.results{
+  margin-top: 20px;
+}
+.results h2{
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+.results ul{
+  list-style-type: none;
+  padding: 0;
+}
+.results li{
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+  color: #333;
+}
+.results li:last-child{
+  border-bottom: none;
+}
+.hidden-trends{
+  display: none;
+}
